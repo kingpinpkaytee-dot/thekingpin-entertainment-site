@@ -16,13 +16,7 @@ jobs:
           from pathlib import Path
           p = Path("index.html")
           s = p.read_text(encoding="utf-8")
-          # Enforce the confirmed canonical Spotify artist URL and repair the legacy digit-0 typo.
-          correct_spotify_url = "https://open.spotify.com/artist/7fSMDPOeWrFwYol9Vye2Ty"
-          s = s.replace(
-              "https://open.spotify.com/artist/7fSMDP0eWrFwYol9Vye2Ty",
-              correct_spotify_url
-          )
-          s = s.replace("7fSMDP0eWrFwYol9Vye2Ty", "7fSMDPOeWrFwYol9Vye2Ty")
+          # Preserve the current images by using exact Cloudinary copies as stable delivery sources.
           # Preserve the current images by using exact Cloudinary copies as stable delivery sources.
           s = s.replace(
               "https://res.cloudinary.com/dgeipeicd/image/upload/v1788912320/diggerman/social-preview-reference.jpg",
