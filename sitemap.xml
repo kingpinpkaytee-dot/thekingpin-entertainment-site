@@ -1,2 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://kingpinpkaytee-dot.github.io/thekingpin-entertainment-site/</loc></url></urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://kingpinpkaytee-dot.github.io/thekingpin-entertainment-site/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dgeipeicd/image/upload/f_auto,q_auto,w_512/v1794930968/the-kingpin-entertainment/seo/the-kingpin-entertainment-logo.png</image:loc>
+      <image:title>The Kingpin Entertainment official company logo</image:title>
+      <image:caption>The Kingpin Entertainment Pty Ltd — Music. Passion. Legacy.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dgeipeicd/image/upload/v1788914912/diggerman/site-backups/2026-09-09/diggerman-preferred-photo-preserved.jpg</image:loc>
+      <image:title>DiggerMan official artist portrait</image:title>
+      <image:caption>DiggerMan, independent South African recording artist from Riverlea, Johannesburg.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://kingpinpkaytee-dot.github.io/thekingpin-entertainment-site/assets/diggerman-song-baby.webp</image:loc>
+      <image:title>DiggerMan Baby release artwork</image:title>
+      <image:caption>Official DiggerMan single artwork.</image:caption>
+    </image:image>
+  </url>
+</urlset>
