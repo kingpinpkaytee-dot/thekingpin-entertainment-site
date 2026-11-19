@@ -31,4 +31,4 @@ The company remains represented as Organization, not LocalBusiness. No verified 
 - [x] Existing logo and social preview URLs retained.
 - [x] Existing Organization and WebSite JSON-LD graph retained and enriched.
 - [x] Company-to-artist identity relationship documented.
-- [ ] Production deployment and live HTML verification after merge.
+- [x] Production deployment and live HTML verification after merge (2026-11-19): company site and DiggerMan artist site both returned HTTP 200; live company HTML contains foundingDate, official Facebook sameAs and logo preload; live artist HTML contains parentOrganization.
